@@ -4,15 +4,15 @@ const imagePreviewElement = document.querySelector('#image-upload-control img');
 function updateImagePreview() {
     const files = imagePickerElement.files;
 
-    if (!files || files.lenght === 0) {
-        imagePreviewElement.getElementsByClassName.display = 'none';
+    if (!files || files.length === 0) {
+        imagePreviewElement.style.display = 'none';
         return;
     }
 
     const pickedFile = files[0];
 
     imagePreviewElement.src = URL.createObjectURL(pickedFile);
-    imagePreviewElement.getElementsByClassName.display = 'block';
+    imagePreviewElement.style.display = 'block';
 }
 
 imagePickerElement.addEventListener('change', updateImagePreview);
