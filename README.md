@@ -6,6 +6,6 @@ add, delete, and correct products and information about them;
 see user orders and change orders status.
 
 ### User can:
-add, remove products to the cart, and adjust the quantity of the selected product.
+add, remove products to/from the cart, and adjust the quantity of the selected product.
 
 
